@@ -1,0 +1,26 @@
+.pricing-image-bg {
+    background-image: url("https://thumbs.dreamstime.com/b/green-grass-background-soccer-field-bangkok-thailand-45809852.jpg"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.app-image-bg {
+    background-image: url("https://s2.glbimg.com/naVZlb7zc2wS7MG_UqKwNS3f2Tg=/0x0:1080x608/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/E/p/GOfSDiT3WnIv5wO61LXQ/carrossel-guia-serie-a.jpg"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tv2-img-bg {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/604/389/298/soccer-clube-de-regatas-do-flamengo-logo-hd-wallpaper-preview.jpg"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+    .Tv-text {
+        max-width: 460px;
+        display: inline-block;
+    }
+}
