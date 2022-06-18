@@ -4,11 +4,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.app-image-bg {
-    background-image: url("https://s2.glbimg.com/naVZlb7zc2wS7MG_UqKwNS3f2Tg=/0x0:1080x608/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/E/p/GOfSDiT3WnIv5wO61LXQ/carrossel-guia-serie-a.jpg"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+.app-bg-img {
+    background-image: url("https://www.iptvsmarters.com/wp-content/uploads/2020/08/Screenshot_20200902-101634.jpg"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .tv2-img-bg {
@@ -23,4 +24,33 @@
         max-width: 460px;
         display: inline-block;
     }
+}
+
+
+.Movies-Bg {
+    background-image: url("../assets/Channels/MoviesBg.webp"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Series-Bg {
+    background-image: url("../assets/Channels/SeriesBg.jpg"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Channel-Bg {
+    background-image: url("../assets/Channels/ChannelBg.jpg"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Sports-Bg {
+    background-image: url("../assets/Channels/SportsBg.jpg"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

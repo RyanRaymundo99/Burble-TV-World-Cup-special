@@ -2,7 +2,7 @@ import '../Global/Global.css'
 
 function Tv2() {
     return (
-        <div className="relative overflow-hidden tv2-img-bg py-20 px-10">
+        <div className="relative overflow-hidden tv2-img-bg py-20 px-10 text-center">
           <div className="mx-auto">
             <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32">
               <main className="mt-10 mx-auto px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
