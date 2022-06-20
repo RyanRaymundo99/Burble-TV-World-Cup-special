@@ -5,7 +5,7 @@
     background-size: cover;
 }
 .app-bg-img {
-    background-image: url("https://www.iptvsmarters.com/wp-content/uploads/2020/08/Screenshot_20200902-101634.jpg"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9));
+    background-image: url("../assets/AppBg.jpg"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
