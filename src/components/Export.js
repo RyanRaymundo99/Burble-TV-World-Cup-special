@@ -4,3 +4,5 @@ export { default as App } from './App';
 export { default as Tv } from './Tv';
 export { default as Tv2 } from './Tv2';
 export { default as Channels } from './Channels';
+export { default as Content } from './Content';
+export { default as Featured } from './Featured';
