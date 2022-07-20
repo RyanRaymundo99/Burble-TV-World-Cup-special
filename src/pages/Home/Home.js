@@ -1,4 +1,4 @@
-import { Hero, Pricing, App, Tv, Tv2, Channels, Content, Featured} from '../../components/Export'
+import { Hero, Pricing, App, Tv, Tv2, Channels, Featured, Advantages} from '../../components/Export'
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
         <Tv2 />
         <Channels/>
         <App />
-        <Content />
+        <Advantages />
         <Featured />
     </div>
   )

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
+import '../Global/Global.css'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
-import {BsBadge4K, BsBadgeHd }  from 'react-icons/bs';
+import {BsBadge4K, BsBadgeHd, BsBadgeCc }  from 'react-icons/bs';
 import {FiAlertCircle }  from 'react-icons/fi';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
 import { sliderData } from "../constants/FeaturedData";
@@ -54,6 +55,7 @@ const Featured = () => {
                   <div className="options">
                     <BsBadge4K style={{ fontSize: "25px", color: "white", marginRight: "10px" }} />
                     <BsBadgeHd style={{ fontSize: "25px", color: "white", marginRight: "10px" }} />
+                    <BsBadgeCc style={{ fontSize: "25px", color: "white", marginRight: "20px" }} />
                     <h2 className="options-text">{slide.options}</h2>
                     <h2>{slide.timer}</h2>
                     <FiAlertCircle style={{ fontSize: "25px", color: "white", marginRight: "10px" }} />
@@ -62,7 +64,6 @@ const Featured = () => {
                   <h1>{slide.subheading}</h1>
                   <p>{slide.desc}</p>
                   <hr />
-                  <button className="--btn --btn-primary">Get Started</button>
                 </div>
               </div>
             )}
