@@ -119,14 +119,14 @@
     display: flex;
   }
 
-  .options h2 {
+  .options-2 {
+    display: flex;
+  }
+
+  .options-2 h2 {
     margin-right: 15px;
   }
-  
-  .options .options-text{
-    color: rgb(82, 231, 82);
-    margin-right: 15px;
-  }
+
   
   .content > * {
     color: #fff;

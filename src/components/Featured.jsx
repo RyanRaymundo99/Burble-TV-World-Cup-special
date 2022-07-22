@@ -56,9 +56,10 @@ const Featured = () => {
                     <BsBadge4K style={{ fontSize: "25px", color: "white", marginRight: "10px" }} />
                     <BsBadgeHd style={{ fontSize: "25px", color: "white", marginRight: "10px" }} />
                     <BsBadgeCc style={{ fontSize: "25px", color: "white", marginRight: "20px" }} />
-                    <h2 className="options-text">{slide.options}</h2>
+                  </div>
+                  <div className="options-2">
                     <h2>{slide.timer}</h2>
-                    <FiAlertCircle style={{ fontSize: "25px", color: "white", marginRight: "10px" }} />
+                    <FiAlertCircle style={{ fontSize: "25px", color: "white", marginRight: "2px" }} />
                     <h2>{slide.age}</h2>
                   </div>
                   <h1>{slide.subheading}</h1>
