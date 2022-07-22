@@ -11,6 +11,7 @@ function Home() {
         <App />
         <Advantages />
         <Featured />
+        <Advantages />
     </div>
   )
 }
